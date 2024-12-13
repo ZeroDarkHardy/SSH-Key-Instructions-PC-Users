@@ -178,6 +178,47 @@ Your SSH key can also be used to authenticate with your class GitLab page. Follo
 7. Click **Add Key** to save it.
 
 Once added, you can use the same SSH key to interact with your repositories on GitLab.
+
+### Clone the GitLab Repository to Your Computer
+
+To access the class materials:
+
+1. Navigate to the GitLab repository page and copy the **SSH URL** from the **Clone** dropdown menu.
+2. Open GitBash and navigate to the directory where you want to clone the repository. For example:
+
+   ```bash
+   cd /path/to/your/directory
+   ```
+
+3. Clone the repository:
+
+   ```bash
+   git clone paste_the_full_SSH_URL_here
+   ```
+
+   Be sure to paste the entire link you copied from the GitLab repository page.
+
+4. Navigate into the cloned repository:
+
+   ```bash
+   cd classroom-repository-name
+   ```
+
+### Keep Your Repository Updated
+
+You will need to pull the latest updates before every class session and after class to retrieve solutions to classroom activities:
+
+1. To pull updates:
+
+   ```bash
+   git pull
+   ```
+
+   This will synchronize your local copy with the latest changes on GitLab.
+
+2. Run `git pull` about 30 minutes after class concludes to access the solutions provided by the instructor.
+
+Remember, you will not be pushing changes to this repository.
 ---
 
 ## Troubleshooting
