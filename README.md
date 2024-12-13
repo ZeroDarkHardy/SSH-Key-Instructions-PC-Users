@@ -1,4 +1,4 @@
-# Generating and Registering an SSH Key with GitBash on Windows
+# README: Generating and Registering an SSH Key with GitBash on Windows
 
 This guide will walk you through the steps to generate an SSH key using GitBash and register it with your GitHub account. This guide is intended for PC users.
 
@@ -108,6 +108,8 @@ This copies the public key to your clipboard.
 ## Step 6: Test the SSH Connection
 
 Verify that your key was added successfully by typing the following command in GitBash:
+
+**Note:** On your first attempt, you may be asked to verify the authenticity of the host by typing 'yes'. This is normal and only occurs the first time.
 
 ```bash
 ssh -T git@github.com
