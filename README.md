@@ -173,11 +173,11 @@ Your SSH key can also be used to authenticate with your class GitLab page. Follo
      ```bash
      clip < ~/.ssh/id_ed25519.pub
      ```
-5. Give the key a descriptive title (e.g., `My PC SSH Key`).
-6. Click **Add Key** to save it.
+5. Remove any value from the "Expiration Date" field to ensure the key does not expire.
+6. Give the key a descriptive title (e.g., `My PC SSH Key`).
+7. Click **Add Key** to save it.
 
 Once added, you can use the same SSH key to interact with your repositories on GitLab.
-
 ---
 
 ## Troubleshooting
